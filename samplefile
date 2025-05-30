@@ -1,0 +1,5 @@
+WebDriver d=new ChromeDriver();//upcasting
+		System.setProperty("webdriver.chrome.driver","C:\\chropath\\chromedriver.exe");
+		d.get("https://www.techlistic.com/p/selenium-practice-form.html");
+    d.findElement(By.name("firstname")).sendKeys("Maria");
+		d.findElement(By.name("lastname")).sendKeys("Deepthi");
